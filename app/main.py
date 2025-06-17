@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from app.database import init_db
-from app.routes import funcionario
-from app.routes import departamento
+from app.routes import funcionario, departamento, cargo, funcionario_cargo
 
 
 app = FastAPI(title="Sistema de Gestão")
@@ -17,3 +16,5 @@ async def root():
 
 app.include_router(funcionario.router)
 app.include_router(departamento.router)
+app.include_router(cargo.router)
+app.include_router(funcionario_cargo.router) 
