@@ -155,4 +155,4 @@ git push origin feature/nome-da-feature
 
 ## ✨ Autor
 
-Desenvolvido por [@david-wolff](https://github.com/david-wolff) com apoio do ChatGPT para estruturação, modelagem e implementação completa da API.
+Desenvolvido por [@david-wolff](https://github.com/david-wolff) 
